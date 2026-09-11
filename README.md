@@ -2,53 +2,59 @@
 
 
 
-# [Project Name] 🎯
+# [Kinattile Thavala 🐸 🎯] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [zebloski]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Jerin Joseph] - [Mar Baselios Christian College of Engineering and Technology]
+- Member 2: [Sharon Philip] - [Mar Baselios Christian College of Engineering and Technology]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+[An infinitely looping, psychologically frustrating web game built using vanilla HTML, CSS, and JS about a frog trying to escape a well, only to realize the "real world" is just another well.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Gamers have entirely too much hope and self-esteem. They inherently believe that if they just try hard enough and reach the top, they will win, escape their current circumstances, and finally be allowed to quit.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[A literal digital translation of a Malayalam *pazhamchollu* (proverb) that completely shatters player morale. The game forces players to climb an infinite well, gives them a "Sky Blue" false hope cutscene upon reaching the top, and drops them into a new well. To ensure maximum uselessness, the "Yes" quit button physically runs away from their mouse cursor so they are trapped in the loop.!]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML5, CSS3, Vanilla JavaScript (ES6)]
+- [None (Zero-dependency architecture)]
+- [none]
+- [VS Code, Git, GitHub Pages]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [N/A]
+- [N/A]
+- N/A]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[```bash
+git clone [https://github.com/your-username/useless-frog-game.git](https://github.com/your-username/useless-frog-game.git)
+cd useless-frog-game]
 
 # Run
-[commands]
+[# This project requires no build tools or package managers.
+# 1. Navigate to the project folder.
+# 2. Simply double-click index.html to open it in any modern web browser.
+#    (Alternatively, open the folder in VS Code and use the "Live Server" extension).]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![<img width="436" height="789" alt="01" src="https://github.com/user-attachments/assets/abeecd3b-2d38-4848-9d32-7fa27c4da417" />
+](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
