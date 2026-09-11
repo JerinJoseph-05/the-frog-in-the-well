@@ -66,28 +66,30 @@ For Software:
 *The psychological warfare exit screen triggered by the Esc key, where the 'Yes' button actively evades the user's mouse cursor to prevent them from quitting (unless they use the secret Alt+Esc override).*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+# Diagrams
 
-For Hardware:
+```mermaid
+graph TD
+    A[Player Input] -->|Arrow Keys / Spacebar| B(JavaScript Game Loop)
+    A -->|Esc| C[Troll Quit Menu]
+    
+    subgraph Invisible Physics Engine
+        B --> D[Calculate Gravity & Velocity]
+        D --> E[Check Ledge Collisions & Track Climb]
+        E --> F[Update HTML5 Canvas Hitboxes]
+    end
+    
+    subgraph Visible UI Overlay
+        F -->|Sync X/Y Coordinates| G[Absolute Positioned CSS Frog]
+        G -->|Trigger DOM Updates| H{Player Sees Animated Frog}
+    end
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
+    E -->|If WIN_HEIGHT Reached| I[False Hope Cutscene]
+    I -->|Flashes Blue & Resets Loop| F
+    
+    C -->|Mouse Hover| J[Yes Button Runs Away]
+end
+```
 ### Project Demo
 # Video
 [Add your demo video link here]
