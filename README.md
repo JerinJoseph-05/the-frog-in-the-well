@@ -54,14 +54,16 @@ For Software:
 
 # Screenshots (Add at least 3)
 ![<img width="436" height="789" alt="01" src="https://github.com/user-attachments/assets/abeecd3b-2d38-4848-9d32-7fa27c4da417" />
-](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+](starting of the game)
+*The starting point of the game where the frog begins its infinite climb up the procedurally generated ledges inside the dark well.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="567" height="849" alt="02" src="https://github.com/user-attachments/assets/cc0989a7-d866-4036-a271-0f2dd2a8251f" />
+](next level)
+*The 'False Hope' prompt that appears after reaching the top, before dropping the player into a newly colored, identical well loop.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="529" height="862" alt="03" src="https://github.com/user-attachments/assets/e1036b9b-52b5-4654-a29d-8d32041ea975" />
+](quiting option but never works)
+*The psychological warfare exit screen triggered by the Esc key, where the 'Yes' button actively evades the user's mouse cursor to prevent them from quitting (unless they use the secret Alt+Esc override).*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -95,9 +97,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [jerin joseph]: [Core game loop logic, HTML5 Canvas physics implementation, DOM overlay integration, and project deployment.]
+- [sharon philip]: [ HTML5 Canvas physics implementation, DOM overlay integration, and project deployment]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
