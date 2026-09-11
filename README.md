@@ -88,7 +88,6 @@ graph TD
     I -->|Flashes Blue & Resets Loop| F
     
     C -->|Mouse Hover| J[Yes Button Runs Away]
-end
 ```
 ### Project Demo
 # Video
