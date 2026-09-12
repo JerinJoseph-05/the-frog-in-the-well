@@ -91,11 +91,10 @@ graph TD
 ```
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[]
 
-# Additional Demos
-[Add any extra demo materials/links]
+
+A gameplay demonstration showing a player successfully reaching the top, getting tricked by the false hope cutscene, and subsequently failing to click the runaway 'Yes' quit button.
 
 ## Team Contributions
 - [jerin joseph]: [Core game loop logic, HTML5 Canvas physics implementation, DOM overlay integration, and project deployment.]
