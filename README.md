@@ -15,13 +15,13 @@
 
 
 ### Project Description
-[An infinitely looping, psychologically frustrating web game built using vanilla HTML, CSS, and JS about a frog trying to escape a well, only to realize the "real world" is just another well.]
+An infinitely looping, psychologically frustrating web game built using vanilla HTML, CSS, and JS about a frog trying to escape a well, only to realize the "real world" is just another well.
 
 ### The Problem (that doesn't exist)
-[Gamers have entirely too much hope and self-esteem. They inherently believe that if they just try hard enough and reach the top, they will win, escape their current circumstances, and finally be allowed to quit.]
+Gamers have entirely too much hope and self-esteem. They inherently believe that if they just try hard enough and reach the top, they will win, escape their current circumstances, and finally be allowed to quit.
 
 ### The Solution (that nobody asked for)
-[A literal digital translation of a Malayalam *pazhamchollu* (proverb) that completely shatters player morale. The game forces players to climb an infinite well, gives them a "Sky Blue" false hope cutscene upon reaching the top, and drops them into a new well. To ensure maximum uselessness, the "Yes" quit button physically runs away from their mouse cursor so they are trapped in the loop.!]
+A literal digital translation of a Malayalam *pazhamchollu* (proverb) that completely shatters player morale. The game forces players to climb an infinite well, gives them a "Sky Blue" false hope cutscene upon reaching the top, and drops them into a new well. To ensure maximum uselessness, the "Yes" quit button physically runs away from their mouse cursor so they are trapped in the loop.!
 
 ## Technical Details
 ### Technologies/Components Used
@@ -91,7 +91,7 @@ graph TD
 ```
 ### Project Demo
 # Video
-[]
+[https://drive.google.com/file/d/1VFQbmQz8mrnpbu15VDXHfq-hgcBg_DJk/view?usp=drivesdk]
 
 
 A gameplay demonstration showing a player successfully reaching the top, getting tricked by the false hope cutscene, and subsequently failing to click the runaway 'Yes' quit button.
