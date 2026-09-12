@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Frog in the Well</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* A quick reset to make the canvas take up the whole screen */
+        body { margin: 0; overflow: hidden; background-color: #2c3e50; }
+        canvas { display: block; margin: 0 auto; background-color: #1a252f; }
+    </style>
+</head>
+<body>
+    
+    <!-- Game Container holding the Canvas and the CSS Frog -->
+    <div id="gameWrapper" style="position: relative; width: 400px; height: 800px; margin: 0 auto;">
+        
+        <canvas id="gameCanvas" width="400" height="800"></canvas>
 
+        <!-- Wrapper to handle the scaling so the animation doesn't break -->
+        <div id="cssFrog" style="position: absolute; left: 0; top: 0; transform: scale(0.25); transform-origin: top left; z-index: 10;">
+            <!-- Your Animated CSS Frog -->
+            <div class="frog">
+                <div class="eyes">
+                    <div class="eye"><div class="pupil"></div></div>
+                    <div class="eye"><div class="pupil"></div></div>
+                </div>
+                <div class="cheeks">
+                    <div class="cheek"></div>
+                    <div class="cheek"></div>
+                </div>
+                <div class="mouth-container">
+                    <div class="mouth"></div>
+                    <div class="tongue"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- The Fake Win Popup -->
+    <div id="winModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Are you finally ready to explore the real world, frog?</h2>
+            <button id="yesBtn">Yes, continue</button>
+        </div>
+    </div>
+
+    <!-- The Fake Quit Popup -->
+    <div id="quitModal" class="modal hidden">
+        <div class="modal-content" id="quitContent">
+            <h2>Do you really want to quit?</h2>
+            <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+                <button id="noBtn" style="background: #e74c3c;">No, keep trying</button>
+                <button id="fakeYesBtn">Yes</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
